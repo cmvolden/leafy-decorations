@@ -35,14 +35,13 @@ html {
 .banner {
   background:
     linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0) 50%),
-    url("../images/banner.jpg") no-repeat left center / cover;
+    url("../images/banner.jpg") no-repeat bottom center / cover;
   border-top: 3px solid #2d5a4d;
 }
 
 .banner-content {
   padding-top: 300px;
-  background:
-    url("../images/two-leaves.svg") no-repeat .75em 180px / 100px auto;
+  background: url("../images/two-leaves.svg") no-repeat .75em 180px / 100px auto;
 }
 
 @media only screen and (min-width: 60em) {
